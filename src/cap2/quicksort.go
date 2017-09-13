@@ -33,3 +33,9 @@ func quicksort(numeros []int) []int {
 		append(quicksort(menores), pivo),
 		quicksort(maiores)...)
 }
+
+func particionar(numeros []int, pivo int) (menores []int, maiores []int){
+	for _, n := range numeros {
+		
+	}
+}
